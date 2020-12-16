@@ -1,0 +1,52 @@
+
+body {
+  background-color: black;
+  background-image:
+  radial-gradient(white,  rgba(255,255,255,.2) 2px, transparent 10px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 5px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  font-family: arefruqaa;
+}
+.moon {
+  width: 33%;
+  position: fixed;
+    left: 70px;
+    top: 50px;
+    z-index: -1;
+}
+
+@font-face {
+  font-family: "arefruqaa";
+  src: url(arefruqaa-regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+button {
+  background-color: white;
+  border: none;
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+  width: 8em;
+  border-radius: 30px;
+  opacity: 0.3;
+  cursor: pointer;
+  font-family: arefruqaa;
+}
+
+.button:hover {
+  opacity: 0.8;
+  transition: 1s;
+}

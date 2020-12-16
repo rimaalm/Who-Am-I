@@ -1,0 +1,142 @@
+
+body {
+  background-color: black;
+  background-image:
+  radial-gradient(white,  rgba(255,255,255,.2) 2px, transparent 10px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 5px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 10px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 5px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: "arefruqaa";
+  src: url(arefruqaa-regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.arabicPoem {
+  color: white;
+  font-family: arefruqaa;
+  text-align: center;
+}
+
+.container {
+  font-size: 4em;
+  margin-top: 400px;
+}
+
+.english {
+  font-size: 2.5em;
+  display: none;
+  color: grey;
+}
+
+.englishTwo {
+  font-size: 2.5em;
+  display: none;
+  color: grey;
+}
+
+.moon {
+  width: 33%;
+  position: fixed;
+    left: 70px;
+    top: 50px;
+    z-index: -5;
+}
+.windContain {
+  position: absolute;
+  max-width: 2000px;
+  min-height: 75vh;
+  padding: 40px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.wind {
+  position: fixed;
+    top: 50px;
+    bottom: 0px;
+    right: auto;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
+  background: url(dust.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.time {
+position: absolute;
+  opacity: 0.4;
+  background: url(time.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.cloudContain {
+  position: absolute;
+  max-width: 3000px;
+  min-height: 900px;
+  padding: 40px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.cloudOne {
+  position: fixed;
+    top: 50px;
+    bottom: 0px;
+    right: auto;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+  background: url(cloudOne.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.cloudTwo {
+  position: fixed;
+    top: 50px;
+    bottom: 0px;
+    right: auto;
+    width: 2000px;
+    height: 800px;
+    z-index: -4;
+  background: url(cloudTwo.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.endContain{
+  position: relative;
+  color: white;
+  font-family: arefruqaa;
+}
+
+.titleContain{
+  position: absolute;
+  margin-top: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 8em;
+}
+
+.engTitle {
+  position: absolute;
+  display: none;
+  margin-top: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: grey;
+}
